@@ -32,7 +32,7 @@
 #define SX126X_MOSI 13 // EBYTE module's MOSI pin
 #define SX126X_MISO 4  // EBYTE module's MISO pin
 #define SX126X_RESET 1 // EBYTE module's NRST pin
-#define SX126X_BUSY 48 // EBYTE module's BUSY pin
+#define SX126X_BUSY 38 // EBYTE module's BUSY pin // Cambiado 48 por 38, por ser 48 LED RGB
 #define SX126X_DIO1 47 // EBYTE module's DIO1 pin
 
 #define SX126X_TXEN 10 // Schematic connects EBYTE module's TXEN pin to MCU
