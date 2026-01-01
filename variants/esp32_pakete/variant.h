@@ -35,8 +35,11 @@
 #define SX126X_BUSY 38 // EBYTE module's BUSY pin // Cambiado 48 por 38, por ser 48 LED RGB
 #define SX126X_DIO1 47 // EBYTE module's DIO1 pin
 
-#define SX126X_TXEN 10 // Schematic connects EBYTE module's TXEN pin to MCU
-#define SX126X_RXEN 12 // Schematic connects EBYTE module's RXEN pin to MCU
+// #define SX126X_TXEN 10 // Schematic connects EBYTE module's TXEN pin to MCU (sustituido)
+#define SX126X_RXEN 12 // Schematic connects EBYTE module's RXEN pin to MCU (posible que no tenga que conectar para E22P)
+
+#define SX126X_TXEN  RADIOLIB_NC
+#define SX126X_DIO2_AS_RF_SWITCH
 
 #define LORA_CS SX126X_CS     // Compatibility with variant file configuration structure
 #define LORA_SCK SX126X_SCK   // Compatibility with variant file configuration structure
